@@ -1,3 +1,14 @@
+// ## All Snippets list
+
+
+///  getRegSing : To Generate Singleton mock
+///  scstr : For static const string
+///  vyuhSection : Vyuh Section
+///  vyuhApiBuilder : Vyuh Api builder
+
+
+
+
 {
     "To Generate Singleton mock": {
       "prefix": "getRegSing",

@@ -1,65 +1,47 @@
 # vyuh-snippets README
 
-This is the README for your extension "vyuh-snippets". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "vyuh-snippets". This extension provides code snippets for the Vyuh framework, making it easier to write and maintain your code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Provides a collection of useful code snippets for the Vyuh framework.
+- Snippets are available for the Dart programming language.
 
-For example if there is an image subfolder under your extension project workspace:
+## All Snippets list
 
-\!\[feature X\]\(images/feature-x.png\)
+- `getRegSing` : To Generate Singleton mock
+- `scstr` : For static const string
+- `vyuhSection` : Vyuh Section
+- `vyuhApiBuilder` : Vyuh Api builder
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Example Snippet
 
-## Requirements
+Here is an example of a snippet provided by this extension:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+```dart
+final class $1ApiConfig extends ApiConfiguration<$2> {
+  static const schemaName = 'feature.$1.configsSection';
 
-## Extension Settings
+  static final typeDescriptor = TypeDescriptor(
+    schemaType: schemaName,
+    title: 'Feature API Configuration ($1)',
+    fromJson: $1ApiConfig.fromJson,
+  );
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+  $1ApiConfig() : super(schemaType: schemaName);
 
-For example:
+  factory $1ApiConfig.fromJson(Map<String, dynamic> json) =>
+      _$$1ApiConfigFromJson(json);
 
-This extension contributes the following settings:
+  @override
+  Widget build(BuildContext context, $2? data) {
+    return const Text('$1 API Config');
+  }
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+  @override
+  Future<$2?> invoke(BuildContext context) async {
+    return null;
+    // Invoke the API 
+  }
+}
+```
