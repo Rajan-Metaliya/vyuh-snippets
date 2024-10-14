@@ -62,7 +62,7 @@
       "}",
       ""
     ],
-    "description": "Vyuh Sectuib"
+    "description": "Vyuh Section"
   },
   "Vyuh Api Builder": {
     "prefix": "vyuhApiBuilder",
@@ -283,7 +283,7 @@
     "description": "Create a new Vyuh Action Configuration for News Bookmark"
   },
   "Vyuh DI Register": {
-    "prefix": "vyuhdi",
+    "prefix": "vyuhDI",
     "body": ["vyuh.di.register(${1:ClassName}());"],
     "description": "Register a class with Vyuh dependency injection",
   },

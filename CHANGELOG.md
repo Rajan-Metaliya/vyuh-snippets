@@ -9,12 +9,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 
 - Initial release with the following snippets:
-  - `vyuhSection`: Vyuh section.
+  - `vyuhSection`: Vyuh sSection.
   - `vyuhApiBuilder`: Vyuh API builder.
   - `vyuhFeature`: Feature descriptor.
   - `vyuhPlugin`: Plugin setup.
   - `vyuhContentItem`: Content item definition.
   - `vyuhLayoutConfig`: Layout configuration.
   - `vyuhActionConfig`: Vyuh action config.
-  - `vyuhdi` :Vyuh DI Register
+  - `vyuhDI` :Vyuh DI Register
 
