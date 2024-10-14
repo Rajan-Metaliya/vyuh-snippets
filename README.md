@@ -1,10 +1,10 @@
 # vyuh-snippets README
 
-This is the README for your extension "vyuh-snippets". This extension provides code snippets for the Vyuh framework, making it easier to write and maintain your code.
+This is the README for your extension "vyuh-snippets". This extension provides code snippets for the [Vyuh framework](https://vyuh.tech/), making it easier to write and maintain your code.
 
 ## Features
 
-- Provides a collection of useful code snippets for the Vyuh framework.
+- Provides a collection of useful code snippets for the [Vyuh framework](https://vyuh.tech/).
 - Snippets are available for the Dart programming language.
 
 ## All Snippets list
