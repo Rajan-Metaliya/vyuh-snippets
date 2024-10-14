@@ -291,5 +291,10 @@
       "}"
     ],
     "description": "Create a new Vyuh Action Configuration for News Bookmark"
-  }
+  },
+  "Vyuh DI Register": {
+    "prefix": "vyuhdi",
+    "body": ["vyuh.di.register(${1:ClassName}());"],
+    "description": "Register a class with Vyuh dependency injection",
+  },
 }

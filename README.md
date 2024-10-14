@@ -18,6 +18,7 @@ This is the README for your extension "vyuh-snippets". This extension provides c
 - `vyuhContentItem` : Content Item Definition
 - `vyuhLayoutConfig` : Layout Configuration
 - `vyuhActionConfig` : Vyuh Action Config
+- `vyuhdi` :Vyuh DI Register
 
 
 ### Example Snippet
