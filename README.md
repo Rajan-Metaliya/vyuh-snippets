@@ -9,8 +9,6 @@ This is the README for your extension "vyuh-snippets". This extension provides c
 
 ## All Snippets list
 
-- `getRegSing` : To Generate Singleton mock
-- `scstr` : For static const string
 - `vyuhSection` : Vyuh Section
 - `vyuhApiBuilder` : Vyuh Api builder
 - `vyuhFeature` : Feature Descriptor

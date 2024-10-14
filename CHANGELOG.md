@@ -9,8 +9,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 
 - Initial release with the following snippets:
-  - `getRegSing`: To generate a singleton mock.
-  - `scstr`: For static const string.
   - `vyuhSection`: Vyuh section.
   - `vyuhApiBuilder`: Vyuh API builder.
   - `vyuhFeature`: Feature descriptor.

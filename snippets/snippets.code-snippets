@@ -1,15 +1,5 @@
 {
-  "To Generate Singleton mock": {
-    "prefix": "getRegSing",
-    "body": ["  getIt.registerSingleton<$1>(Mock$1());", ""],
-    "description": "To Generate Singleton mock"
-  },
-  "For static const string": {
-    "prefix": "scstr",
-    "body": ["static const String $1 = \"$2\";"],
-    "description": "To Generate Singleton mock"
-  },
-  "Vyuh Sectuib": {
+  "Vyuh Section": {
     "prefix": "vyuhSection",
     "body": [
       "import 'package:flutter/material.dart';",
